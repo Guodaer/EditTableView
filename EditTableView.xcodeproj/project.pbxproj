@@ -15,6 +15,7 @@
 		044DB54A1E0B69D400C6C90F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044DB5481E0B69D400C6C90F /* LaunchScreen.storyboard */; };
 		044DB5551E0B69D400C6C90F /* EditTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044DB5541E0B69D400C6C90F /* EditTableViewTests.m */; };
 		044DB5601E0B69D400C6C90F /* EditTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044DB55F1E0B69D400C6C90F /* EditTableViewUITests.m */; };
+		044DB56F1E0B777D00C6C90F /* GDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044DB56E1E0B777D00C6C90F /* GDTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		044DB55B1E0B69D400C6C90F /* EditTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EditTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		044DB55F1E0B69D400C6C90F /* EditTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditTableViewUITests.m; sourceTree = "<group>"; };
 		044DB5611E0B69D400C6C90F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044DB56D1E0B777D00C6C90F /* GDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTableViewCell.h; sourceTree = "<group>"; };
+		044DB56E1E0B777D00C6C90F /* GDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				044DB53E1E0B69D300C6C90F /* AppDelegate.m */,
 				044DB5401E0B69D300C6C90F /* ViewController.h */,
 				044DB5411E0B69D300C6C90F /* ViewController.m */,
+				044DB56D1E0B777D00C6C90F /* GDTableViewCell.h */,
+				044DB56E1E0B777D00C6C90F /* GDTableViewCell.m */,
 				044DB5431E0B69D300C6C90F /* Main.storyboard */,
 				044DB5461E0B69D400C6C90F /* Assets.xcassets */,
 				044DB5481E0B69D400C6C90F /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				044DB5421E0B69D300C6C90F /* ViewController.m in Sources */,
 				044DB53F1E0B69D300C6C90F /* AppDelegate.m in Sources */,
+				044DB56F1E0B777D00C6C90F /* GDTableViewCell.m in Sources */,
 				044DB53C1E0B69D300C6C90F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
